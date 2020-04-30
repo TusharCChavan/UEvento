@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp"
+    android:background="#102733"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+     >
+     <ImageView
+         android:layout_gravity="center_vertical"
+         android:layout_width="25dp"
+         android:layout_height="25dp"
+         android:src="@drawable/logo"
+         />
+     <LinearLayout
+         android:layout_gravity="center_vertical"
+         android:layout_marginLeft="8dp"
+         android:layout_width="0dp"
+         android:layout_weight="1"
+         android:layout_height="wrap_content">
+         <TextView
+             android:textColor="@android:color/white"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="UVE"
+             android:textStyle="bold"
+             android:textSize="22sp"
+             />
+         <TextView
+             android:textColor="#FFA700"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textStyle="bold"
+             android:textSize="22sp"
+             android:text="NTO"
+             />
+
+     </LinearLayout>
+
+
+     <LinearLayout
+
+         android:layout_width="wrap_content"
+         android:layout_height="match_parent">
+         <ImageView
+
+             android:layout_gravity="center_vertical"
+             android:layout_width="25dp"
+             android:layout_height="25dp"
+             android:src="@drawable/notify"
+             />
+         <ImageView
+             android:layout_gravity="center_vertical"
+             android:layout_width="25dp"
+             android:layout_marginLeft="14dp"
+             android:layout_height="25dp"
+             android:src="@drawable/menu"
+             />
+     </LinearLayout>
+
+
+
+
+ </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello, Tushar!"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                />
+            <TextView
+                android:layout_marginTop="4dp"
+             android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+
+                android:text="Let's explore what’s happening nearby"
+                />
+
+
+
+        </LinearLayout>
+        <ImageView
+            android:layout_marginTop="4dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/tc"
+            />
+    </LinearLayout>
+    <HorizontalScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_marginTop="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <LinearLayout
+            android:layout_marginLeft="16dp"
+         android:layout_gravity="center_vertical"
+         android:layout_marginRight="16dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10"
+                android:textStyle="bold"
+                android:textColor="#CCCCCC"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_marginTop="8dp"
+                android:textStyle="bold"  android:layout_gravity="center"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SUN"
+                android:textColor="#CCCCCC"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11"
+                android:textStyle="bold"
+                android:textColor="#CCCCCC"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:layout_marginTop="8dp"
+                android:textStyle="bold"  android:layout_gravity="center"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MON"
+                android:textColor="#CCCCCC"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+android:background="@drawable/selected_date"
+            android:layout_marginRight="16dp"
+
+            android:padding="8dp" android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:layout_marginTop="8dp"
+                android:textStyle="bold"  android:layout_gravity="center"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TUE"
+                android:textColor="#000000"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13"
+                android:textStyle="bold"
+                android:textColor="#CCCCCC"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:layout_marginTop="8dp"
+                android:textStyle="bold"  android:layout_gravity="center"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WED"
+                android:textColor="#CCCCCC"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="14"
+                android:textStyle="bold"
+                android:textColor="#CCCCCC"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:layout_marginTop="8dp"
+                android:textStyle="bold"  android:layout_gravity="center"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="THU"
+                android:textColor="#CCCCCC"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15"
+                android:textStyle="bold"
+                android:textColor="#CCCCCC"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:layout_marginTop="8dp"
+                android:textStyle="bold"  android:layout_gravity="center"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FRI"
+                android:textColor="#CCCCCC"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="16"
+                android:textStyle="bold"
+                android:textColor="#CCCCCC"
+                android:textSize="18sp"
+                />
+            <TextView
+android:layout_marginTop="8dp"
+                android:textStyle="bold"  android:layout_gravity="center"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SAT"
+                android:textColor="#CCCCCC"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All Events"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+    <HorizontalScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+         <LinearLayout
+
+            android:background="@drawable/card_bg"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="129dp"
+            android:layout_height="102dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/concert"
+                />
+            <TextView
+                android:layout_marginTop="16dp"
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Concert"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/card_bg"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="129dp"
+            android:layout_height="102dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/sports"
+                />
+            <TextView
+                android:layout_marginTop="16dp"
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sports"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/card_bg"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="129dp"
+            android:layout_height="102dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/education"
+                />
+            <TextView
+                android:layout_marginTop="16dp"
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Education"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </HorizontalScrollView>
+    <TextView
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Popular Events"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+
+            android:background="@drawable/card_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@android:color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sports Meet in Galaxy Field"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    />
+                <LinearLayout
+                    android:layout_marginTop="12dp"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_marginRight="8dp"
+                        android:src="@drawable/calender" />
+                    <TextView
+
+
+                        android:textColor="@android:color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jan 12, 2019"
+                        android:textStyle="bold"
+
+
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_marginRight="8dp"
+                        android:src="@drawable/location" />
+                    <TextView
+
+
+                        android:textColor="@android:color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Greenfields, Sector 42, Faridabad"
+                        android:textStyle="bold"
+
+
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+   
+            <ImageView
+                android:scaleType="fitXY"
+                android:src="@drawable/tileimg"
+                android:layout_width="110dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_marginTop="16dp"
+            android:background="@drawable/card_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@android:color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Art &amp; Meet in Street Plaza"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    />
+                <LinearLayout
+                    android:layout_marginTop="12dp"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_marginRight="8dp"
+                        android:src="@drawable/calender" />
+                    <TextView
+
+
+                        android:textColor="@android:color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jan 12, 2019"
+                        android:textStyle="bold"
+
+
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_marginRight="8dp"
+                        android:src="@drawable/location" />
+                    <TextView
+
+
+                        android:textColor="@android:color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Galaxyfields, Sector 22, Faridabad"
+                        android:textStyle="bold"
+
+
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:src="@drawable/second"
+                android:layout_width="110dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="16dp"
+            android:background="@drawable/card_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@android:color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Youth Music in Galleria"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    />
+                <LinearLayout
+                    android:layout_marginTop="12dp"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_marginRight="8dp"
+                        android:src="@drawable/calender" />
+                    <TextView
+
+
+                        android:textColor="@android:color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jan 12, 2019"
+                        android:textStyle="bold"
+
+
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_marginRight="8dp"
+                        android:src="@drawable/location" />
+                    <TextView
+
+
+                        android:textColor="@android:color/white"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Greenfields, Sector 42, Faridabad"
+                        android:textStyle="bold"
+
+
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:src="@drawable/music_event"
+                android:layout_width="110dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="22dp"/>
+    </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+ <!--   <LinearLayout
+        android:background="#152F3E"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <LinearLayout
+            android:layout_margin="4dp"
+            android:layout_gravity="center_vertical"
+            android:padding="8dp"
+            android:background="@drawable/bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/home"
+                />
+            <TextView
+                android:layout_marginLeft="4dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HOME"
+                android:textStyle="bold"
+                android:textColor="#FFA700"
+                />
+
+        </LinearLayout>
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@drawable/search"
+            />
+        <ImageView
+            android:layout_marginRight="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/star"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout> -->
+
+</LinearLayout>
